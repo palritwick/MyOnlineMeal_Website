@@ -7,43 +7,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Online Food Delivery in India | MyOnlineMeal.com</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link rel="stylesheet" media="screen and (max-width: 1440px)" href="phone.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 
 <body>
     <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="MyOnlineMeal.com">
+        </div>
         <ul>
             <li id="item"><a href="#home">Home</a></li>
             <li id="item"><a href="#services-container">Services</a></li>
             <li id="item"><a href="#client-section">Clients</a></li>
             <li id="item"><a href="#contact">Contact Us</a></li>
         </ul>
-        <div id="logo">
-            <img src="logo.png" alt="MyOnlineMeal.com">
-        </div>
-    </nav>
+    </nav> 
     <section id="home">
         <h1 id="h-primary">Welcome to MyOnlineMeal</h1>
         <p>Food is the substance we eat every day for energy and strength. There are many different types of food, such as fruits, vegetables, rice, and pasta. We need to eat a variety of foods to get all the essential nutrients the body needs. Not eating a healthy and balanced diet leads to weakness and deficiency diseases</p>
         <p>Food is divided into categories such as grains, proteins, fruits, vegetables, and dairy.
         </p>
-        <button class="btn"><a href="#contact">Order Now</a></button>
-        <label for="select">Select Our Branch</label>
+        <button class="btn"><a href="#contact"><b>Order Now</b></a></button>
+
+        <label for="select"><u> Our Branch</u></label>
         <div id="branch-loc">
-            New Delhi<input type="radio" name="location" id="branch">
-            Kolkata<input type="radio" name="location" id="branch">
-            Mumbai<input type="radio" name="location" id="branch">
-            Chennai<input type="radio" name="location" id="branch">
+            <label for="branch1">New Delhi
+            <input type="checkbox" name="location" id="branch1"></label>
+            <label for="branch2">Kolkata
+            <input type="checkbox" name="location" id="branch2"></label>
+            <label for="branch3">Mumbai
+            <input type="checkbox" name="location" id="branch3"></label>
+            <label for="branch4">Chennai
+            <input type="checkbox" name="location" id="branch4"></label>
+            <label for="branch5">Others 
+                <input type="checkbox" name="location" id="branch5">
+                <select name="location" id="branch5">
+                    <option value="1st">Hyderabad</option>
+                    <option value="2nd">Vrindavan</option>
+                    <option value="3rd">Gujarat</option>
+                    <option value="4th">Lucknow</option>
+                    <option value="5th">Bangalore</option>
+                </select>
+            </label>
         </div>
     </section>
+
+<!-- service section -->
+
     <sectiom id="services-container">
         <h1 class="primary-center"> Our Services</h1>
         <div id="services">
             <div id="box">
                 <img src="food1.jpg.jpg" alt="Services">
-                <h2 class="h-secondary-center">Fooding</h2>
+                <h2 class="h-secondary-center">Fooding</h2><br>
                 <p>Fooding is a brand of a restaurant guide and gastronomic events that was founded in 2000. A
                     contraction of the words "food" and "feeling", the Fooding aims to "defend a less-intimidating
                     gastronomy for those who want to cook and nourish themselves in an unstuffy fashion". 
@@ -51,7 +69,7 @@
             </div>
             <div id="box">
                 <img src="food2.jpg.jpg" alt="Services">
-                <h2 class="h-secondary-center">Food Ordering</h2>
+                <h2 class="h-secondary-center">Food Ordering</h2><br>
                 <p>Online food ordering is a process of ordering food from a local restaurant or food cooperative
                     through a web page or app. Much like ordering consumer goods online, many of these allow customers
                     to keep accounts with them in order to make frequent ordering convenient. A customer will search for
@@ -63,7 +81,7 @@
             </div>
             <div id="box">
                 <img src="delivery.jpg" alt="Services">
-                <h2 class="h-secondary-center">Quick Fast Delivery</h2>
+                <h2 class="h-secondary-center">Quick Fast Delivery</h2><br>
                 <p>Online food ordering is the process of ordering food, for delivery or pickup, from a website or other
                     application. The product can be either ready-to-eat food (e.g., direct from a home-kitchen,
                     restaurant, or a virtual restaurant) or food that has not been specially prepared for direct
@@ -74,7 +92,7 @@
             </div>
             <div id="box">
                 <img src="food3.jpg.jpg" alt="Services">
-                <h2 class="h-secondary-center">Catering</h2>
+                <h2 class="h-secondary-center">Catering</h2><br>
                 <p>More and more people are turning to the services of professional caterers for weddings, private
                     dinner parties and corporate events for good reason. It takes a lot of preparation and planning to
                     run successful event or party. With the help of a professional catering service, you can relax,
@@ -87,26 +105,26 @@
             </div>
             <div id="box">
                 <img src="food4.jpg.jpg" alt="Services">
-                <h2 class="h-secondary-center">Chinese</h2>
+                <h2 class="h-secondary-center">Chinese</h2><br>
                 <p>China's food is very unique and traditional. Grains are the main food in China. Rice is the favorite grain among the people in the South. In the north, people prefer wheat, which they make in to bread and noodles. Corn millet, and sorghum are also eaten. Vegetables, especially cabbage and Tofu rank second in Chinese diet. Roasted sweet potatoes are a popular snack eaten by the Chinese. Pork and poultry are the favorite meats in China. The people also like eggs, fish, fruit, and shellfish. Chop Suey originated in China. Chop sticks and soup spoons are served as the only utensils at a Chinese meal. Tea is the traditional Chinese beverage.</p>
             </div>
             <div id="box">
                 <img src="order_types.png" alt="Services">
                 <h2 class="h-secondary-center">Ordering-Types</h2>
+                <br>
                 <p>
                     <ul><b>
-                        <li>Fast Food</li>
-                        <li>Casual</li>
-                        <li>Fast Casual</li>
-                        <li>Contemporary Casual</li>
+                        <li>Fast Food.</li>
+                        <li>Casual.</li>
+                        <li>Fast Casual.</li>
+                        <li>Contemporary Casual.</li>
                         <li>Fine Dining.</li>
-                        <li>Cafes and Coffee Shops</li>
+                        <li>Cakes and Coffee Shops.</li>
                         <li>Specialty Drinks.</li>
-                        <li>Buffet.</li>
+                        <li>Buffet Combo.</li>
+                        <li>Soft & Hard Drinks.</li>
+                        <li>Soups Spicy.</li>
                     </ul></b>
-                </p>
-                <p>
-                    Fast food restaurants emphasize speed of service. Operations range from small-scale street vendors with food carts to multibillion-dollar corporations like McDonald's and Burger King. Food is ordered not from the table, but from a front counter (or in some cases, using an electronic terminal). Diners typically then carry their own food from the counter to a table of their choosing, and afterward dispose of any waste from their trays. Drive-through and take-out service may also be available. Fast food restaurants are known in the restaurant industry as QSRs or quick-service restaurants.
                 </p>
             </div>
         </div>
@@ -163,7 +181,7 @@
                 </div>
                 <div id="form-group">
                     <label for="message">Any Message :</label>
-                    <input type="message" name="message" id="message" placeholder="Write some message here">
+                    <input type="message" name="message" id="message" placeholder="Write some message for us">
                 </div><br><br>
                 <div id="submit">
                     <button>Submit Now</button>
@@ -212,9 +230,27 @@
                 </span>
             </a>
             <p>
-                1st Floor, B-2/11, Mohan Cooperative Industrial Estate, New Delhi North Delhi, Delhi, 110047
+                <i class="ri-map-pin-line"></i>
+                1st Floor, B-2/11, Mohan Cooperative Industrial Estate, New Delhi, North Delhi, Delhi 110047
             </p>
-            Copyright &copy; <b>www.myOnlineMeal.com.</b> All rights reserved. MyOnlineMeal Web Services Pvt. Ltd.
+            <p>
+                Copyright &copy; <b>www.myOnlineMeal.com.</b> All rights reserved. MyOnlineMeal Web Services Pvt. Ltd.
+            </p><br>
+            <p>
+                For more information please contact us 
+            </p>
+            <p>
+                <span class="icon1">
+                    <i class="ri-phone-line"></i>
+                    (+91) 8941281278 / (+91) 6218519363
+                </span>
+            </p>
+            <p>
+                <span class="icon1">
+                    <i class="ri-mail-add-line"></i>
+                    myonlinemeal@gmail.com
+                </span>
+            </p>
         </div>
     </footer>
 </body>
