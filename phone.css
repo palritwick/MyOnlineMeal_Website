@@ -8,17 +8,47 @@
 #navbar::before{
     height: 100%;
 }
-#navbar ul li a{
+#navbar ul li {
+    list-style: none;
+    font-size: 1.1rem;
+}
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding: 0px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
     font-size: 1rem;
-    padding: 0px 7px;
-    padding-bottom: 8px;
 }
 /* Home section */
 #home{
     height: 210px; 
     padding: 3px 28px;
+    margin-top: 30px;
 }
-
+.btn{
+    padding: 6px 20px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    font-family: 'Bree Serif', serif;
+    margin: 7px;
+    font-size: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+.btn:hover {
+    background-color: rgb(255, 220, 167);
+    font-size: 1.002rem;
+    box-shadow: 3px 5px 5px rgb(43, 43, 43);
+}
 #home::before{
     height: 600px; 
 }
@@ -27,6 +57,7 @@
     text-align: center;
     font-family: 'Bree Serif', serif;
     font-size: 1.5rem;
+    margin-top: 60px;
 }
 #home p{
     font-size: 13px;
@@ -48,9 +79,23 @@ label{
     cursor: pointer;
 }
 label select{
-    font-size: 1rem;
+    font-size: 0.78rem;
 }
+
+#branch-loc input{
+    width: 11px;
+    height: 11px;
+    font-family: 'Bree Serif', serif;
+}
+
 /* Services section  */
+.primary-center {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    height: 10px;
+    padding: 50px;
+    margin-top: 55px;
+}
 #services{
     flex-direction: column;
 }

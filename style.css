@@ -80,7 +80,7 @@ html {
 
 #home::before {
     content: "";
-    background: url('bg.jpg') no-repeat center center/cover;
+    background: url('img/bg.jpg') no-repeat center center/cover;
     position: absolute;
     left: 0px;
     height: 1000px;
@@ -124,11 +124,9 @@ html {
 label{
     font-family: 'Bree Serif', serif;
     font-size: 1.8rem;
-    font-weight: 900;
 }
 #branch-loc{
     font-size: 1.7rem;
-    font-weight: 500;
     font-family: 'Bree Serif', serif;
     color: black;
     margin: 17px;
@@ -136,7 +134,7 @@ label{
 }
 #branch-loc input{
     width: 20px;
-    height: 20px;
+    height: 16px;
     font-family: 'Bree Serif', serif;
 }
 label{
@@ -199,7 +197,7 @@ label #branch5{
     text-align: center;
     height: 10px;
     padding: 50px;
-    /* background:linear-gradient(-90deg,blanchedalmond,rgb(99, 134, 134)); */
+    margin-top: 25px;
 }
 
 .center {
@@ -256,7 +254,7 @@ label #branch5{
 #client-section::before {
     content: "";
     position: absolute;
-    background: url('bg.jpg');
+    background: url('img/bg.jpg');
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -271,9 +269,8 @@ label #branch5{
 
 .client-item {
     padding: 34px;
-    /* background: transparent; */
+    background: transparent;
 }
-
 .client-item img {
     width: 310px;
     height: 250px;
